@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.blue_gradient {
+    @apply bg-gradient-to-r from-blue-500 via-blue-600 to-blue-500 bg-clip-text text-transparent;
+}
+
+.desc {
+    @apply mt-1 sm:mt-5 text-sm text-gray-600 sm:text-xl max-w-2xl text-center;
+  }
+
+.btn{
+    @apply bg-gradient-to-r from-blue-500 via-blue-600 to-blue-500 text-white px-3 py-1 ml-4 rounded-md
+}
